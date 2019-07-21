@@ -6,7 +6,7 @@ words = set()
 def main():
 
     if len(argv) != 2:
-        print("Usage: python bleep.py dictionary")
+        print("Usage: python censor.py dictionary")
         exit(1)
 
     load(argv[1])
